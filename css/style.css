@@ -1,0 +1,196 @@
+
+       main {
+           background-color: rgb(250, 229, 229);
+           padding: 30px;
+        
+        }
+
+       .container-carroussel {
+           width: 100%;
+           margin: auto;
+           padding: 0;
+           height: auto;
+       }
+
+       .container-galeria {
+        width: 100%;
+        margin: auto;
+        padding: 0;
+        height: auto;
+        }
+
+       .slide-galeria {
+           padding-top: 0;
+           margin: 0;
+           width: 100%;
+           height: auto;
+          
+       }
+
+       .slide-carroussel{
+           padding-bottom: 0;
+           margin: 0;
+           width: 100%;
+           height: auto;
+       }
+
+        /* PARALLAX --> QUEM SOMOS
+        */
+        body, html{
+            color: #777;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+            width: 100%;   
+           
+        }   
+
+        .conteudo {
+            color: black;
+            background-color: #fff;
+            text-align: justify;
+            padding: 50px 80px;
+            font-size: 16px;    
+        }
+
+        h3 {
+        
+            color: rgb(192, 9, 9);
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            
+               
+        }
+
+        .caixa1, .caixa2, .caixa3, .caixa4, .caixa5 {
+            height: 50%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            
+        }
+
+        .caixa1 {
+            
+            background-image: url(../img/parallax-1.jpg); 
+        }
+
+        .caixa2 {
+            background-image: url(../img/parallax-2.jpg);
+            
+        }
+
+        .caixa3 {
+            background-image: url(../img/parallax-3.jpg);
+            
+        }
+
+        .caixa4 {
+            background-image: url(../img/parallax-4.jpg);
+            
+        }
+
+        .caixa5 {
+            background-image: url(../img/batons-3.jpg);
+            
+        }
+        /*FIM PARALLAX
+        */
+        
+        
+        /*CABEÇALHO
+        */
+        .navbar-light .navbar-nav .nav-link {
+            color: black;
+               
+        }
+
+        .navbar-light .navbar-nav .nav-link:hover {
+            color: rgb(204, 4, 4);
+           
+        }
+
+        nav {
+            background-color: #fff;
+            padding-left: 30px;
+            padding-right: 30px;
+            
+        }
+
+        h2 {
+            font-family: fantasy;
+            color: rgb(204, 4, 4);
+            margin: 0;
+        }
+
+        .cards {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            text-align: center;
+            width: 100%;
+            height: auto;
+            margin: 0;
+            padding: 5px;
+           
+               
+        }
+
+     .link {
+            text-decoration: none;
+            color: #fff;
+            
+        }
+
+        .link:hover {
+            color: red;
+        }
+
+
+
+        /* ************* FOOTER *************
+        */
+        .link2 {
+            text-decoration: none;
+            color: white;
+            font-size: 0.7em;
+            
+        }
+
+        .link2:hover {
+            color: red;
+        }
+
+       .row {
+           padding-top: 20px;
+           padding-bottom: 50px;
+       }
+
+   
+
+  
+
+   
+
+    
+
+       
+
+      
+
+       
+
+       
+        
+
+       
+
+       
+    
+
+
+
+
+
+
